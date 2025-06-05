@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* For the centered active slide */
+.slick-center {
+  transform: scale(1.1);
+  opacity: 1;
+  transition: transform 0.8s, opacity 0.3s;
+}
+
+.slick-slide {
+  opacity: 0.6;
+  transition: opacity 0.8s;
+}
+
+.slick-slide.slick-center {
+  opacity: 1;
+}
