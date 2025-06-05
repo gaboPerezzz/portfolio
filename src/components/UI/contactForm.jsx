@@ -41,7 +41,7 @@ function ContactForm() {
             variant="standard"
             className="w-full"
             inputProps={{
-              pattern: "^[A-Za-z]+(\\s[A-Za-z]+)*$",
+              pattern: "^[A-Za-z\\s]+$",
               title: "First name should only contain letters.",
             }}
             required
@@ -69,7 +69,7 @@ function ContactForm() {
             variant="standard"
             className="w-full"
             inputProps={{
-              pattern: "^[A-Za-z]+(\\s[A-Za-z]+)*$",
+              pattern: "^[A-Za-z\\s]+$",
               title: "Last name should only contain letters.",
             }}
             required
