@@ -129,7 +129,7 @@ function Header() {
           </div>
           <div>
             <a href="/Resume_JohnGabrielPerez.pdf" download>
-              <Button buttonText={"Download Resume"} />
+              <Button buttonText={"Download "} />
             </a>
           </div>
         </div>
