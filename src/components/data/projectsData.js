@@ -11,6 +11,7 @@ import ifp from "../../assets/projThumbnails/graphicDesigns/if.jpg";
 import vuln from "../../assets/projThumbnails/graphicDesigns/vuln.jpg";
 import vuln2 from "../../assets/projThumbnails/graphicDesigns/vuln2.jpg";
 import cr from "../../assets/projThumbnails/graphicDesigns/cr.jpg";
+import icfaa from "../../assets/projThumbnails/graphicDesigns/icfaa.png";
 
 export const projectItems = [
   {
@@ -166,6 +167,18 @@ export const projectItems = [
     tech: ["Adobe Photoshop", "Adobe Illustrator"],
     type: "graphicDesign",
     link: "https://drive.google.com/file/d/1qTw_-fQzKAY7rjlCoJgzana_OlxP9FMw/view?usp=sharing",
+    category: "Graphic Design",
+  },
+  {
+    id: 12,
+    title: "I Can't Feel at All",
+    thumbnail: icfaa,
+    alt: "creative resume",
+    projDesc:
+      "A Y2k themed graphic poster inspired by the song 'I Can't Feel at All' by jssr for a music video competition.",
+    tech: ["Adobe Photoshop"],
+    type: "graphicDesign",
+    link: "https://drive.google.com/file/d/1VUa5f_py3b3W3mAw3j1_l4YXgi4ENHZF/view?usp=sharing",
     category: "Graphic Design",
   },
 ];
