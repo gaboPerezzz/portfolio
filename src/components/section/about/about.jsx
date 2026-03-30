@@ -29,19 +29,20 @@ function About() {
           transition={{ duration: 0.8 }}
         >
           <p>
-            I’m an artist, designer, and developer specializing in creating
-            visually compelling and user-focused experiences. With expertise in
-            digital art, UI/UX design, and front-end development, I bring ideas
-            to life through clean, modern, and functional design solutions. My
-            skill set includes visual storytelling, brand identity, and
-            interactive design, ensuring that every project is both
-            aesthetically striking and purpose-driven. I thrive on
-            collaboration, adaptability, and problem-solving, making me a
-            valuable asset in creative and tech-driven industries. Whether it’s
-            crafting intuitive user interfaces, designing engaging visuals, or
-            building seamless web experiences, I’m always focused on delivering
-            high-quality work that leaves a lasting impact. Let’s create
-            something great together!
+            I’m an artist, designer, and software developer specializing in
+            creating visually compelling, user-focused experiences. With
+            expertise in digital art, UI/UX design, and both front-end and
+            back-end development, I bring ideas to life through clean, modern,
+            and functional solutions. My skill set spans visual storytelling,
+            brand identity, interactive design, and web application development,
+            ensuring that every project is both aesthetically striking and
+            purpose-driven. I thrive on collaboration, adaptability, and
+            problem-solving, making me a valuable asset in creative and
+            tech-driven industries. Whether it’s crafting intuitive user
+            interfaces, designing engaging visuals, or building seamless
+            full-stack web experiences, I focus on delivering high-quality work
+            that leaves a lasting impact. Let’s create something remarkable
+            together!
           </p>
         </motion.div>
       </div>

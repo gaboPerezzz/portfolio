@@ -31,25 +31,26 @@ function CarouselCard({
               whileHover={{ scale: 1 }}
             >
               <motion.img
+                onClick={toggleMenu}
                 src={thumbnail}
                 alt={alt}
-                className="w-full h-full rounded-[50px] xl:!rounded-[50px] shadow-lg object-cover shadow-xl"
+                className="w-full h-full rounded-[50px] xl:!rounded-[50px] shadow-lg object-cover shadow-xl cursor-pointer"
                 whileHover={{ scale: 1.1 }}
                 loading="lazy"
               />
             </motion.div>
           </MotionConfig>
 
-          <div>
+          {/* <div>
             <h3 className="font-light text-base">{category}</h3>
-          </div>
+          </div> */}
           {/* description */}
-          <div
+          {/* <div
             className="w-full h-auto bg-gray-200 flex items-center justify-center rounded-4xl shadow-lg p-5 px-10"
             style={{ boxShadow: "inset 3px 2px 4px rgba(0,0,0,0.3)" }}
           >
             <p className="text-justify text-sm font-light">{projDesc}</p>
-          </div>
+          </div> */}
           {/* button */}
           <motion.div
             onClick={toggleMenu}
