@@ -12,6 +12,7 @@ import vuln from "../../assets/projThumbnails/graphicDesigns/vuln.jpg";
 import vuln2 from "../../assets/projThumbnails/graphicDesigns/vuln2.jpg";
 import cr from "../../assets/projThumbnails/graphicDesigns/cr.jpg";
 import icfaa from "../../assets/projThumbnails/graphicDesigns/icfaa.png";
+import pwestu from "../../assets/projThumbnails/pwestu.png";
 
 export const projectItems = [
   {
@@ -28,6 +29,18 @@ export const projectItems = [
   },
   {
     id: 2,
+    title: "Pwestu",
+    thumbnail: pwestu,
+    alt: "First Portfolio Website Thumbnail",
+    projDesc:
+      "A Web Mapping System for Locating Legal Parking Areas for Urban Drivers in Angeles City, Pampanga",
+    tech: ["Angular", "TailwindCSS", "Laravel", "MySQL"],
+    type: "webProjects",
+    link: "https://www.pwestu.com",
+    category: "Web Project",
+  },
+  {
+    id: 3,
     title: "Heart of Paws",
     thumbnail: hop,
     alt: "Heart of Paws Website Thumbnail",
@@ -38,18 +51,18 @@ export const projectItems = [
     link: "https://heartofpawstarlac.netlify.app",
     category: "Web Project",
   },
-  {
-    id: 3,
-    title: "Artfolio",
-    thumbnail: artfolio,
-    alt: "Artfolio Website Thumbnail",
-    projDesc:
-      "An accredited student organization under the School of Computing at Holy Angel University that focuses on students specializing in web development.",
-    tech: ["MongoDB", "ExpressJS", "Vue", "NodeJS", "Bootstrap", "CSS"],
-    type: "webProjects",
-    link: "https://artfolioproject.netlify.app",
-    category: "Web Project",
-  },
+  // {
+  //   id: 4,
+  //   title: "Artfolio",
+  //   thumbnail: artfolio,
+  //   alt: "Artfolio Website Thumbnail",
+  //   projDesc:
+  //     "An accredited student organization under the School of Computing at Holy Angel University that focuses on students specializing in web development.",
+  //   tech: ["MongoDB", "ExpressJS", "Vue", "NodeJS", "Bootstrap", "CSS"],
+  //   type: "webProjects",
+  //   link: "https://artfolioproject.netlify.app",
+  //   category: "Web Project",
+  // },
   {
     id: 4,
     title: "Stitches by Luna",
@@ -74,8 +87,9 @@ export const projectItems = [
     link: "https://gabperez.netlify.app",
     category: "Web Project",
   },
+
   {
-    id: 6,
+    id: 7,
     title: "Burg Thumbnail",
     thumbnail: burg,
     alt: "Burg Youtube Thumbnail",
@@ -87,7 +101,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 7,
+    id: 8,
     title: "Burg Thumbnail 2",
     thumbnail: burg2,
     alt: "Burg Youtube Thumbnail",
@@ -99,7 +113,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 7,
+    id: 9,
     title: "Business Card",
     thumbnail: card,
     alt: "Business Card Mockup",
@@ -110,7 +124,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 8,
+    id: 10,
     title: "GLOW UP",
     thumbnail: glow,
     alt: "Glow Up Poster",
@@ -122,7 +136,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 9,
+    id: 11,
     title: "Vulnerability Infograpic",
     thumbnail: vuln,
     alt: "Vulnerability Infographic Poster",
@@ -134,7 +148,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 10,
+    id: 12,
     title: "Vulnerability Infograpic",
     thumbnail: vuln2,
     alt: "Vulnerability Infographic Poster",
@@ -146,7 +160,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 11,
+    id: 13,
     title: "IF",
     thumbnail: ifp,
     alt: "if by rudyard kipling poster",
@@ -158,7 +172,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 12,
+    id: 14,
     title: "Creative Resume",
     thumbnail: cr,
     alt: "creative resume",
@@ -170,7 +184,7 @@ export const projectItems = [
     category: "Graphic Design",
   },
   {
-    id: 12,
+    id: 15,
     title: "I Can't Feel at All",
     thumbnail: icfaa,
     alt: "creative resume",
