@@ -55,7 +55,7 @@ function Skills() {
 
         skillset: [
           "UI/UX Design",
-          "Web Development",
+          "Full Stack Development",
           "Web Design",
           "Search Engine Optimization",
           "Performance Optimization",
